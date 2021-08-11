@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("cloudksg/nodeapp")
+        app = docker.build("cloudksg/sample1")
     }
 
     stage('Test image') {
